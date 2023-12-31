@@ -6,8 +6,8 @@
         <!-- Product details -->
         <div class="card-body">
             <h2>{{ $product->name }}</h2>
-            <p>Description: {{ $product->description }}</p>
-            <p>Price: ${{ $product->price }}</p>
+            <p>Description: {{ $product->descripton }}</p>
+            <p>Price: ${{ $product->offer_price }}</p>
         </div>
     </div>
 
